@@ -93,7 +93,7 @@ export default function Home() {
         <div className="contact-card">
           <div>
             <p className="eyebrow">CONTACT</p>
-            <h2>Une idée ?</h2>
+            <h2>Intéressé ?</h2>
             <p>Contactez-moi pour discuter de votre personnalisation.</p>
           </div>
           <div className="contact-links">
