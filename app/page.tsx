@@ -7,6 +7,7 @@ const products = [
     tag: "MODÈLE COMPACT",
     description: "Format plus petit.",
     images: ["IMG_5974.JPG"],
+    placeholder: "Photo du modèle compact à venir",
   },
   { name: "Violet / blanc", images: ["IMG_5844.jpg", "IMG_5845.jpg"] },
   { name: "Bleu / blanc", images: ["IMG_8715.jpg", "IMG_8716.jpg"] },
@@ -36,7 +37,7 @@ export default function Home() {
         <div className="section-heading">
           <p className="eyebrow">PERSONNALISATION</p>
           <h2>Crée ta combinaison.</h2>
-          <p>Choisis les couleurs, les jetons et leur nombre.</p>
+          <p>Choisis les couleurs, les jetons, leur nombre et même le logo.</p>
         </div>
 
         <div className="custom-grid">
@@ -47,13 +48,18 @@ export default function Home() {
           </article>
           <article className="custom-card">
             <span className="custom-number">02</span>
-            <h3>Le logo</h3>
-            <p>Le logo peut lui aussi être personnalisé. Un supplément peut s’appliquer selon la demande.</p>
+            <h3>Les jetons</h3>
+            <p>Choisis les jetons que tu veux dans ta boîte.</p>
           </article>
           <article className="custom-card">
             <span className="custom-number">03</span>
-            <h3>Les jetons</h3>
-            <p>Choisis les jetons que tu veux et le nombre de chaque modèle.</p>
+            <h3>Les quantités</h3>
+            <p>Choisis le nombre de jetons dont tu as besoin.</p>
+          </article>
+          <article className="custom-card">
+            <span className="custom-number">04</span>
+            <h3>Le logo</h3>
+            <p>Le logo peut également être personnalisé selon ta demande. Un supplément peut s'appliquer.</p>
           </article>
         </div>
       </section>
@@ -77,6 +83,9 @@ export default function Home() {
                       alt={`${product.name} — photo ${index + 1}`}
                     />
                   ))}
+                  {product.placeholder && (
+                    <div className="photo-placeholder">{product.placeholder}</div>
+                  )}
                 </div>
                 <div className="product-info">
                   {product.tag && <span className="tag">{product.tag}</span>}
@@ -85,6 +94,18 @@ export default function Home() {
                 </div>
               </article>
             ))}
+          </div>
+
+          <div className="future-photos">
+            <div className="section-heading">
+              <p className="eyebrow">BIENTÔT</p>
+              <h2>Les détails de la personnalisation.</h2>
+            </div>
+            <div className="future-grid">
+              <div className="future-card"><span>Photo des boîtes</span></div>
+              <div className="future-card"><span>Photo des jetons</span></div>
+              <div className="future-card"><span>Photo des compteurs</span></div>
+            </div>
           </div>
         </div>
       </section>
