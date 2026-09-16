@@ -6,7 +6,7 @@ const products = [
     name: "Noir / violet",
     tag: "MODÈLE COMPACT",
     description: "Format plus petit.",
-    images: ["IMG_5974.JPG", "IMG_5986.JPG"],
+    images: ["IMG_5974.JPG"],
   },
   { name: "Violet / blanc", images: ["IMG_5844.jpg", "IMG_5845.jpg"] },
   { name: "Bleu / blanc", images: ["IMG_8715.jpg", "IMG_8716.jpg"] },
@@ -47,13 +47,13 @@ export default function Home() {
           </article>
           <article className="custom-card">
             <span className="custom-number">02</span>
-            <h3>Les jetons</h3>
-            <p>Choisis les jetons que tu veux dans ta boîte.</p>
+            <h3>Le logo</h3>
+            <p>Le logo peut lui aussi être personnalisé. Un supplément peut s’appliquer selon la demande.</p>
           </article>
           <article className="custom-card">
             <span className="custom-number">03</span>
-            <h3>Les quantités</h3>
-            <p>Choisis le nombre de jetons dont tu as besoin.</p>
+            <h3>Les jetons</h3>
+            <p>Choisis les jetons que tu veux et le nombre de chaque modèle.</p>
           </article>
         </div>
       </section>
@@ -94,7 +94,7 @@ export default function Home() {
           <div>
             <p className="eyebrow">CONTACT</p>
             <h2>Intéressé ?</h2>
-            <p>Contactez-moi pour discuter de votre personnalisation.</p>
+            <p>Contactez-moi pour connaître les couleurs disponibles et discuter de votre personnalisation.</p>
           </div>
           <div className="contact-links">
             <a href="mailto:benji.bassdef@outlook.com">
