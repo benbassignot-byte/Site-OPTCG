@@ -14,7 +14,7 @@ const products = [
   {
     name: "Noir / violet",
     tag: "MODÈLE COMPACT",
-    description: "Format plus petit, sans espace supplémentaire pour les dés.",
+    description: "Format plus petit.",
     images: ["IMG_5974.JPG", "IMG_5986.JPG"],
   },
   {
@@ -40,12 +40,9 @@ export default function Home() {
         </nav>
 
         <div className="hero-content container" id="top">
-          <p className="eyebrow">CRÉATIONS 3D · ONE PIECE TCG</p>
-          <h1>Des boîtes pensées<br />pour les joueurs.</h1>
-          <p className="intro">
-            Des créations imprimées en 3D, conçues pour ranger et transporter
-            simplement vos cartes et accessoires.
-          </p>
+          <p className="eyebrow">CRÉATIONS 3D · ONE PIECE</p>
+          <h1>Des accessoires<br />pour jouer.</h1>
+          <p className="intro">Des créations imprimées en 3D pour vos parties de One Piece.</p>
           <a className="button" href="#creations">Voir les créations</a>
         </div>
       </header>
@@ -53,8 +50,7 @@ export default function Home() {
       <section className="section container" id="creations">
         <div className="section-heading">
           <p className="eyebrow">LES CRÉATIONS</p>
-          <h2>Les modèles disponibles</h2>
-          <p>Chaque modèle existe en plusieurs associations de couleurs.</p>
+          <h2>Les modèles</h2>
         </div>
 
         <div className="products-grid">
@@ -79,31 +75,12 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="details-section">
-        <div className="container details">
-          <div>
-            <p className="eyebrow">À PROPOS</p>
-            <h2>Des créations faites simplement, entre passionnés.</h2>
-          </div>
-          <div className="details-text">
-            <p>
-              Ces modèles sont réalisés en impression 3D pour le rangement et
-              le transport des cartes et accessoires du One Piece Card Game.
-            </p>
-            <p>
-              Si un modèle ou une combinaison de couleurs vous intéresse,
-              contactez-moi directement.
-            </p>
-          </div>
-        </div>
-      </section>
-
       <section className="contact-section container" id="contact">
         <div className="contact-card">
           <div>
             <p className="eyebrow">CONTACT</p>
             <h2>Une question ?</h2>
-            <p>Écrivez-moi directement pour discuter d’un modèle.</p>
+            <p>Contactez-moi directement.</p>
           </div>
           <div className="contact-links">
             <a href="mailto:benji.bassdef@outlook.com">
