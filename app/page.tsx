@@ -1,30 +1,15 @@
 const products = [
-  {
-    name: "Rouge / noir",
-    images: ["IMG_5983.JPG", "IMG_5984.JPG"],
-  },
-  {
-    name: "Rouge / blanc",
-    images: ["IMG_5991.JPG", "IMG_5992.JPG"],
-  },
-  {
-    name: "Noir / rouge",
-    images: ["IMG_8687.jpg", "IMG_8688.jpg"],
-  },
+  { name: "Rouge / noir", images: ["IMG_5983.JPG", "IMG_5984.JPG"] },
+  { name: "Rouge / blanc", images: ["IMG_5991.JPG", "IMG_5992.JPG"] },
+  { name: "Noir / rouge", images: ["IMG_8687.jpg", "IMG_8688.jpg"] },
   {
     name: "Noir / violet",
     tag: "MODÈLE COMPACT",
     description: "Format plus petit.",
     images: ["IMG_5974.JPG", "IMG_5986.JPG"],
   },
-  {
-    name: "Violet / blanc",
-    images: ["IMG_5844.jpg", "IMG_5845.jpg"],
-  },
-  {
-    name: "Bleu / blanc",
-    images: ["IMG_8715.jpg", "IMG_8716.jpg"],
-  },
+  { name: "Violet / blanc", images: ["IMG_5844.jpg", "IMG_5845.jpg"] },
+  { name: "Bleu / blanc", images: ["IMG_8715.jpg", "IMG_8716.jpg"] },
 ];
 
 const imageUrl = (filename: string) =>
@@ -42,36 +27,65 @@ export default function Home() {
         <div className="hero-content container" id="top">
           <p className="eyebrow">CRÉATIONS 3D · ONE PIECE</p>
           <h1>Des accessoires<br />pour jouer.</h1>
-          <p className="intro">Des créations imprimées en 3D pour vos parties de One Piece.</p>
-          <a className="button" href="#creations">Voir les créations</a>
+          <p className="intro">Une boîte personnalisable selon tes envies.</p>
+          <a className="button" href="#personnalisation">Personnaliser</a>
         </div>
       </header>
 
-      <section className="section container" id="creations">
+      <section className="section container" id="personnalisation">
         <div className="section-heading">
-          <p className="eyebrow">LES CRÉATIONS</p>
-          <h2>Les modèles</h2>
+          <p className="eyebrow">PERSONNALISATION</p>
+          <h2>Crée ta combinaison.</h2>
+          <p>Choisis les couleurs, les jetons et leur nombre.</p>
         </div>
 
-        <div className="products-grid">
-          {products.map((product) => (
-            <article className="product" key={product.name}>
-              <div className="product-photos">
-                {product.images.map((image, index) => (
-                  <img
-                    key={image}
-                    src={imageUrl(image)}
-                    alt={`${product.name} — photo ${index + 1}`}
-                  />
-                ))}
-              </div>
-              <div className="product-info">
-                {product.tag && <span className="tag">{product.tag}</span>}
-                <h3>{product.name}</h3>
-                {product.description && <p>{product.description}</p>}
-              </div>
-            </article>
-          ))}
+        <div className="custom-grid">
+          <article className="custom-card">
+            <span className="custom-number">01</span>
+            <h3>Les couleurs</h3>
+            <p>Chaque composant peut avoir sa propre couleur.</p>
+          </article>
+          <article className="custom-card">
+            <span className="custom-number">02</span>
+            <h3>Les jetons</h3>
+            <p>Choisis les jetons que tu veux dans ta boîte.</p>
+          </article>
+          <article className="custom-card">
+            <span className="custom-number">03</span>
+            <h3>Les quantités</h3>
+            <p>Choisis le nombre de jetons dont tu as besoin.</p>
+          </article>
+        </div>
+      </section>
+
+      <section className="examples-section">
+        <div className="container">
+          <div className="section-heading">
+            <p className="eyebrow">EXEMPLES</p>
+            <h2>Quelques créations.</h2>
+            <p>Ces modèles montrent quelques combinaisons possibles.</p>
+          </div>
+
+          <div className="products-grid">
+            {products.map((product) => (
+              <article className="product" key={product.name}>
+                <div className="product-photos">
+                  {product.images.map((image, index) => (
+                    <img
+                      key={image}
+                      src={imageUrl(image)}
+                      alt={`${product.name} — photo ${index + 1}`}
+                    />
+                  ))}
+                </div>
+                <div className="product-info">
+                  {product.tag && <span className="tag">{product.tag}</span>}
+                  <h3>{product.name}</h3>
+                  {product.description && <p>{product.description}</p>}
+                </div>
+              </article>
+            ))}
+          </div>
         </div>
       </section>
 
@@ -79,8 +93,8 @@ export default function Home() {
         <div className="contact-card">
           <div>
             <p className="eyebrow">CONTACT</p>
-            <h2>Une question ?</h2>
-            <p>Contactez-moi directement.</p>
+            <h2>Une idée ?</h2>
+            <p>Contactez-moi pour discuter de votre personnalisation.</p>
           </div>
           <div className="contact-links">
             <a href="mailto:benji.bassdef@outlook.com">
