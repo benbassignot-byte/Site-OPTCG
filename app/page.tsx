@@ -1,7 +1,7 @@
 const products = [
   { name: "Noir / rouge", images: ["IMG_5983.JPG", "IMG_5984.JPG"] },
-  { name: "Rouge / noir", images: ["IMG_8687.jpg", "IMG_8688.jpg"] },
-  { name: "Rouge / blanc", images: ["IMG_5991.JPG", "IMG_5992.JPG"] },
+  { name: "Rouge / noir", images: ["IMG_5991.JPG", "IMG_5992.JPG"] },
+  { name: "Rouge / blanc", images: ["IMG_8687.jpg", "IMG_8688.jpg"] },
   {
     name: "Noir / violet",
     tag: "MODÈLE COMPACT",
