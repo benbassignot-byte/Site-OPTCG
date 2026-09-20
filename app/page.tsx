@@ -61,6 +61,11 @@ export default function Home() {
             <h3>Le logo</h3>
             <p>Le logo peut également être personnalisé selon ta demande. Un supplément peut s'appliquer.</p>
           </article>
+          <article className="custom-card">
+            <span className="custom-number">05</span>
+            <h3>La fermeture</h3>
+            <p>Des aimants assurent une fermeture propre et maintiennent la boîte bien fermée.</p>
+          </article>
         </div>
       </section>
 
