@@ -6,8 +6,7 @@ const products = [
     name: "Noir / violet",
     tag: "MODÈLE COMPACT",
     description: "Format plus petit.",
-    images: ["IMG_5974.JPG"],
-    placeholder: "Photo du modèle compact à venir",
+    images: ["IMG_5974.JPG", "ed80225f-cea3-4d9b-81a8-5e80c551a043.jpg"],
   },
   { name: "Violet / blanc", images: ["IMG_5844.jpg", "IMG_5845.jpg"] },
   { name: "Bleu / blanc", images: ["IMG_8715.jpg", "IMG_8716.jpg"] },
@@ -88,9 +87,6 @@ export default function Home() {
                       alt={`${product.name} — photo ${index + 1}`}
                     />
                   ))}
-                  {product.placeholder && (
-                    <div className="photo-placeholder">{product.placeholder}</div>
-                  )}
                 </div>
                 <div className="product-info">
                   {product.tag && <span className="tag">{product.tag}</span>}
