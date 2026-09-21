@@ -100,18 +100,6 @@ export default function Home() {
               </article>
             ))}
           </div>
-
-          <div className="future-photos">
-            <div className="section-heading">
-              <p className="eyebrow">BIENTÔT</p>
-              <h2>Les détails de la personnalisation.</h2>
-            </div>
-            <div className="future-grid">
-              <div className="future-card"><span>Photo des boîtes</span></div>
-              <div className="future-card"><span>Photo des jetons</span></div>
-              <div className="future-card"><span>Photo des compteurs</span></div>
-            </div>
-          </div>
         </div>
       </section>
 
