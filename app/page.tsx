@@ -51,9 +51,11 @@ export default function Home() {
                 <span className="color-swatch" title="Orange" aria-label="Orange" style={{ background: "#f47b20" }} />
                 <span className="color-swatch" title="Marron" aria-label="Marron" style={{ background: "#7a4030" }} />
                 <span className="color-swatch" title="Violet" aria-label="Violet" style={{ background: "#8d63d6" }} />
-                <span className="color-swatch" title="Noir" aria-label="Noir" style={{ background: "#15171b" }} />
+                <span className="color-swatch glitter-swatch" title="Violet foncé pailleté" aria-label="Violet foncé pailleté" />
                 <span className="color-swatch" title="Bleu" aria-label="Bleu" style={{ background: "#087fd1" }} />
                 <span className="color-swatch" title="Blanc cassé" aria-label="Blanc cassé" style={{ background: "#e8e2d5" }} />
+                <span className="color-swatch" title="Noir" aria-label="Noir" style={{ background: "#15171b" }} />
+                <span className="color-swatch" title="Blanc" aria-label="Blanc" style={{ background: "#ffffff" }} />
                 <span className="color-swatch" title="Jaune" aria-label="Jaune" style={{ background: "#f4d62e" }} />
                 <span className="color-swatch" title="Rouge" aria-label="Rouge" style={{ background: "#bd2148" }} />
                 <span className="color-swatch" title="Rose" aria-label="Rose" style={{ background: "#e63b8d" }} />
