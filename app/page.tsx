@@ -89,9 +89,7 @@ export default function Home() {
       <section className="prices-section">
         <div className="container">
           <div className="section-heading">
-            <p className="eyebrow">TARIFS</p>
-            <h2>Des prix simples.</h2>
-            <p>Les tarifs varient selon le format et la configuration choisie.</p>
+            <h2>Tarifs :</h2>
           </div>
 
           <div className="prices-grid">
