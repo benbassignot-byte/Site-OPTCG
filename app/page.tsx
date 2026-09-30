@@ -96,6 +96,7 @@ export default function Home() {
             <div className="price-card">
               <div className="price-card-heading">
                 <h3>Grand format</h3>
+                <p>Espace pour placer des dés de taille standard.</p>
               </div>
               <div className="price-list">
                 <div><span>Boîte + 5 compteurs</span><strong>18 €</strong></div>
@@ -108,6 +109,7 @@ export default function Home() {
             <div className="price-card">
               <div className="price-card-heading">
                 <h3>Petit format</h3>
+                <p>Sans espace pour placer des dés.</p>
               </div>
               <div className="price-list">
                 <div><span>Boîte + 5 compteurs</span><strong>15 €</strong></div>
