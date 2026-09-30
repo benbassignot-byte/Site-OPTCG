@@ -120,6 +120,11 @@ export default function Home() {
           </div>
 
           <div className="custom-price">
+            <span>COMPTEURS SÉPARÉMENT</span>
+            <strong>2 € / unité · 7 € les 5</strong>
+          </div>
+
+          <div className="custom-price">
             <span>LOGO PERSONNALISÉ</span>
             <strong>+5 €</strong>
           </div>
