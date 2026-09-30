@@ -98,7 +98,7 @@ export default function Home() {
                 <p>Espace pour placer des dés de taille standard.</p>
               </div>
               <div className="price-list">
-                <div><span>Boîte + 5 compteurs</span><strong>16 €</strong></div>
+                <div><span>Boîte + 5 compteurs</span><strong>17 €</strong></div>
                 <div><span>Boîte + logo + 5 compteurs</span><strong>19 €</strong></div>
                 <div><span>Boîte + 5 compteurs + 14 jetons</span><strong>19 €</strong></div>
                 <div><span>Boîte + logo + 5 compteurs + 14 jetons</span><strong>22 €</strong></div>
