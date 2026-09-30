@@ -85,7 +85,6 @@ export default function Home() {
         </div>
       </section>
 
-
       <section className="prices-section">
         <div className="container">
           <div className="section-heading">
@@ -163,7 +162,7 @@ export default function Home() {
           <div>
             <p className="eyebrow">CONTACT</p>
             <h2>Intéressé ?</h2>
-            <p>Contactez-moi pour connaître les couleurs disponibles et discuter de votre personnalisation.</p>
+            <p>Contactez-moi pour discuter de votre projet et passer commande.</p>
           </div>
           <div className="contact-links">
             <a href="mailto:benji.bassdef@outlook.com">
