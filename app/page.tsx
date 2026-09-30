@@ -85,6 +85,48 @@ export default function Home() {
         </div>
       </section>
 
+
+      <section className="prices-section">
+        <div className="container">
+          <div className="section-heading">
+            <p className="eyebrow">TARIFS</p>
+            <h2>Des prix simples.</h2>
+            <p>Les tarifs varient selon le format et la configuration choisie.</p>
+          </div>
+
+          <div className="prices-grid">
+            <div className="price-card">
+              <div className="price-card-heading">
+                <h3>Grand format</h3>
+              </div>
+              <div className="price-list">
+                <div><span>Boîte + 5 compteurs</span><strong>18 €</strong></div>
+                <div><span>Boîte + logo + 5 compteurs</span><strong>20 €</strong></div>
+                <div><span>Boîte + 5 compteurs + 14 jetons</span><strong>21 €</strong></div>
+                <div><span>Boîte + logo + 5 compteurs + 14 jetons</span><strong>23 €</strong></div>
+              </div>
+            </div>
+
+            <div className="price-card">
+              <div className="price-card-heading">
+                <h3>Petit format</h3>
+              </div>
+              <div className="price-list">
+                <div><span>Boîte + 5 compteurs</span><strong>15 €</strong></div>
+                <div><span>Boîte + logo + 5 compteurs</span><strong>17 €</strong></div>
+                <div><span>Boîte + 5 compteurs + 14 jetons</span><strong>18 €</strong></div>
+                <div><span>Boîte + logo + 5 compteurs + 14 jetons</span><strong>20 €</strong></div>
+              </div>
+            </div>
+          </div>
+
+          <div className="custom-price">
+            <span>LOGO PERSONNALISÉ</span>
+            <strong>+5 €</strong>
+          </div>
+        </div>
+      </section>
+
       <section className="examples-section">
         <div className="container">
           <div className="section-heading">
