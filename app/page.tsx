@@ -85,6 +85,37 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="examples-section">
+        <div className="container">
+          <div className="section-heading">
+            <p className="eyebrow">EXEMPLES</p>
+            <h2>Quelques créations.</h2>
+            <p>Ces modèles montrent quelques combinaisons possibles.</p>
+          </div>
+
+          <div className="products-grid">
+            {products.map((product) => (
+              <article className="product" key={product.name}>
+                <div className="product-photos">
+                  {product.images.map((image, index) => (
+                    <img
+                      key={image}
+                      src={imageUrl(image)}
+                      alt={`${product.name} — photo ${index + 1}`}
+                    />
+                  ))}
+                </div>
+                <div className="product-info">
+                  {product.tag && <span className="tag">{product.tag}</span>}
+                  <h3>{product.name}</h3>
+                  {product.description && <p>{product.description}</p>}
+                </div>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section className="prices-section">
         <div className="container">
           <div className="section-heading">
@@ -127,37 +158,6 @@ export default function Home() {
           <div className="custom-price">
             <span>LOGO PERSONNALISÉ</span>
             <strong>+5 €</strong>
-          </div>
-        </div>
-      </section>
-
-      <section className="examples-section">
-        <div className="container">
-          <div className="section-heading">
-            <p className="eyebrow">EXEMPLES</p>
-            <h2>Quelques créations.</h2>
-            <p>Ces modèles montrent quelques combinaisons possibles.</p>
-          </div>
-
-          <div className="products-grid">
-            {products.map((product) => (
-              <article className="product" key={product.name}>
-                <div className="product-photos">
-                  {product.images.map((image, index) => (
-                    <img
-                      key={image}
-                      src={imageUrl(image)}
-                      alt={`${product.name} — photo ${index + 1}`}
-                    />
-                  ))}
-                </div>
-                <div className="product-info">
-                  {product.tag && <span className="tag">{product.tag}</span>}
-                  <h3>{product.name}</h3>
-                  {product.description && <p>{product.description}</p>}
-                </div>
-              </article>
-            ))}
           </div>
         </div>
       </section>
