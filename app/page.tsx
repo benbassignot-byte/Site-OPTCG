@@ -100,7 +100,7 @@ export default function Home() {
               <div className="price-list">
                 <div><span>Boîte + 5 compteurs</span><strong>17 €</strong></div>
                 <div><span>Boîte + logo + 5 compteurs</span><strong>19 €</strong></div>
-                <div><span>Boîte + 5 compteurs + 14 jetons</span><strong>19 €</strong></div>
+                <div><span>Boîte + 5 compteurs + 14 jetons</span><strong>20 €</strong></div>
                 <div><span>Boîte + logo + 5 compteurs + 14 jetons</span><strong>22 €</strong></div>
               </div>
             </div>
@@ -112,9 +112,9 @@ export default function Home() {
               </div>
               <div className="price-list">
                 <div><span>Boîte + 5 compteurs</span><strong>14 €</strong></div>
-                <div><span>Boîte + logo + 5 compteurs</span><strong>17 €</strong></div>
+                <div><span>Boîte + logo + 5 compteurs</span><strong>16 €</strong></div>
                 <div><span>Boîte + 5 compteurs + 14 jetons</span><strong>17 €</strong></div>
-                <div><span>Boîte + logo + 5 compteurs + 14 jetons</span><strong>20 €</strong></div>
+                <div><span>Boîte + logo + 5 compteurs + 14 jetons</span><strong>19 €</strong></div>
               </div>
             </div>
           </div>
