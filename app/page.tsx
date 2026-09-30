@@ -98,10 +98,10 @@ export default function Home() {
                 <p>Espace pour placer des dés de taille standard.</p>
               </div>
               <div className="price-list">
-                <div><span>Boîte + 5 compteurs</span><strong>18 €</strong></div>
-                <div><span>Boîte + logo + 5 compteurs</span><strong>20 €</strong></div>
-                <div><span>Boîte + 5 compteurs + 14 jetons</span><strong>21 €</strong></div>
-                <div><span>Boîte + logo + 5 compteurs + 14 jetons</span><strong>23 €</strong></div>
+                <div><span>Boîte + 5 compteurs</span><strong>16 €</strong></div>
+                <div><span>Boîte + logo + 5 compteurs</span><strong>19 €</strong></div>
+                <div><span>Boîte + 5 compteurs + 14 jetons</span><strong>19 €</strong></div>
+                <div><span>Boîte + logo + 5 compteurs + 14 jetons</span><strong>22 €</strong></div>
               </div>
             </div>
 
@@ -111,9 +111,9 @@ export default function Home() {
                 <p>Sans espace pour placer des dés.</p>
               </div>
               <div className="price-list">
-                <div><span>Boîte + 5 compteurs</span><strong>15 €</strong></div>
+                <div><span>Boîte + 5 compteurs</span><strong>14 €</strong></div>
                 <div><span>Boîte + logo + 5 compteurs</span><strong>17 €</strong></div>
-                <div><span>Boîte + 5 compteurs + 14 jetons</span><strong>18 €</strong></div>
+                <div><span>Boîte + 5 compteurs + 14 jetons</span><strong>17 €</strong></div>
                 <div><span>Boîte + logo + 5 compteurs + 14 jetons</span><strong>20 €</strong></div>
               </div>
             </div>
